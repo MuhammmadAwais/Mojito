@@ -115,6 +115,7 @@ if (videoRef.current) {
       <div className="video absolute inset-0">
         <video
           ref={videoRef}
+          
           autoPlay
           muted
           playsInline
