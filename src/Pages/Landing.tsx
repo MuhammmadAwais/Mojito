@@ -4,6 +4,7 @@ import Hero from '../Components/Hero';
 import Cocktails from '../Components/Cocktails';
 import About from '../Components/About';
 import Art from '../Components/Art';
+import Menu from '../Components/Menu';
 
 
 const Landing : React.FC = () => {
@@ -14,6 +15,7 @@ const Landing : React.FC = () => {
       <Cocktails />
       <About />
       <Art />
+      <Menu />
     </main>
   );
 }
