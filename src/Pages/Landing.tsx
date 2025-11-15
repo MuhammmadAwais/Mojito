@@ -1,6 +1,7 @@
 import React from 'react'
 import NavBar from '../Components/NavBar'
 import Hero from '../Components/Hero';
+import Cocktails from '../Components/Cocktails';
 
 
 const Landing : React.FC = () => {
@@ -8,7 +9,7 @@ const Landing : React.FC = () => {
     <main>
       <NavBar />
       <Hero />
-      <div className='h-dvh bg-black'></div>
+      <Cocktails />
     </main>
   );
 }
