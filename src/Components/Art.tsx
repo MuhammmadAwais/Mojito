@@ -16,19 +16,21 @@ const Art = () => {
         end: "bottom center",
         scrub: 1.5,
         pin: true,
+        
       },
     });
 
     maskTimeline
-      .to(".will-fade", { opacity: 0, stagger: 0.2, ease: "power1.inOut" })
+      .to(".will-fade", { opacity: 0, duration: 5, stagger: 0.2, ease: "expo.out" , delay : 1 })
       .to(".masked-img", {
         scale: 1.3,
         maskPosition: "center",
         maskSize: "400%",
-        duration: 1,
+        duration: 5,
         ease: "power1.inOut ",
+        delay: 1,
       })
-      .to("#masked-content", { opacity: 1, duration: 1, ease: "power1.inOut" });
+      .to("#masked-content", { opacity: 1, duration: 5, ease: "expo.out" , delay : 1 });
   });
 
   return (

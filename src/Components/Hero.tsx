@@ -120,7 +120,7 @@ if (videoRef.current) {
           muted
           playsInline
           preload="auto"
-          src="../../public/videos/output.mp4"
+          src="/videos/output.mp4"
         />
       </div>
     </>
